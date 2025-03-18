@@ -38,6 +38,8 @@
 - pip install -r requirements.txt
 
 ## 3️⃣ Configura le variabili di ambiente
+- pip install -r requirements.txt
+
 
 ## 🎯 Avvia il simulatore IoT
 - python iot_simulator.py
