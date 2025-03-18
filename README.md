@@ -20,20 +20,24 @@
 
 ---
 
+- ## ⚠️ Prerequisiti
+- Prima di eseguire questo progetto, assicurati di aver configurato:
+
+    - AWS IoT Core: Creazione del "Thing", certificati e configurazione dell'endpoint
+    - PostgreSQL: Creazione del database, dell'utente e della tabella per la raccolta dei dati
+      
+- Questi dettagli non sono inclusi in questo readme, ma sono necessari per il corretto funzionamento del progetto.
+
 ## 🚀 Setup e Installazione  
 
-## **1️⃣ Clona la repository**  
-- git clone https://github.com/TUO_USERNAME/IoT-Cloud-Monitor.git
-- cd IoT-Cloud-Monitor
-
-## **2️⃣ Crea un ambiente virtuale e attivalo**
+## 1️⃣ Crea un ambiente virtuale e attivalo
 - python3 -m venv iot_env
 - source iot_env/bin/activate 
 
-## **3️⃣ Installa le dipendenze**
+## 2️⃣ Installa le dipendenze
 - pip install -r requirements.txt
 
-## **4️⃣ Configura le variabili di ambiente**
+## 3️⃣ Configura le variabili di ambiente
 
 ## 🎯 Avvia il simulatore IoT
 - python iot_simulator.py
@@ -43,4 +47,7 @@
 
 ## 🔮 Prevedere la temperatura futura
 - python predict.py
+
+
+
 
