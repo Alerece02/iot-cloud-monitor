@@ -1,0 +1,11 @@
+boto3
+paho-mqtt
+psycopg2
+sqlalchemy
+flask
+plotly
+dash
+numpy
+pandas
+scikit-learn
+python-dotenv
